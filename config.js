@@ -21,10 +21,10 @@ global.prefa = ["."];                                    //Default prefix here. 
 
 
 //
-global.Owner = ["916297175943", "919362639362"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.OwnerNumber = ["916297175943", "919362639362"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.ownertag = ["916297175943"];
-global.OwnerName = "Kai";
+global.Owner = ["6288804075817"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.OwnerNumber = ["6288804075817"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.ownertag = ["6288804075817"];
+global.OwnerName = "miracle";
 global.BotName = "A17";
 global.packname = "A17 Bot";                             //Do not change.
 global.author = "By: Kai";                               //Do not change.
@@ -57,26 +57,27 @@ global.ErrorPic = fs.readFileSync("./Assets/pic7.jpg");
 
 
 //
-global.ntilinkytvid = []
-global.ntilinkytch = []
-global.ntilinkig = []
-global.ntilinkfb = []
-global.ntilinktg = []
-global.ntilinktt = []
-global.ntilinktwt = []
-global.ntilinkall = []
-global.nticall = []
-global.ntwame = []
-global.nttoxic = []
-global.ntnsfw = []
-global.ntvirtex = []
-global.rkyt = []
-global.wlcm = []
-global.gcrevoke = []
-global.autorep = []
-global.ntilink = []
-
-
+global.ntilinkytvid = ['true']
+global.ntilinkytch = ['true']]
+global.ntilinkig = ['true']]
+global.ntilinkfb = ['true']]
+global.ntilinktg = ['true']]
+global.ntilinktt = ['true']]
+global.ntilinktwt = ['true']]
+global.ntilinkall = ['true']]
+global.nticall = ['true']]
+global.ntwame = ['true']]
+global.nttoxic = ['true']]
+global.ntnsfw = ['true']]
+global.ntvirtex = ['true']]
+global.rkyt = ['true']]
+global.wlcm = ['true']]
+global.gcrevoke = ['true']]
+global.autorep = ['true']]
+global.ntilink = ['true']]
+WELCOME_MSG: process.env.WELCOME_MSG || "👋 Hello *@user* Welcome To Our Group *@gname*\n*Total Members:* @count\n*Group Description:*\n@gdesc {pp}",
+GOODBYE_MSG: process.env.GOODBYE_MSG || "👋 GoodBye *@user* From *@gname*\n*Total Members:* @count {pp}",
+  
 //
 global.mess = {
   jobdone: 'Here you go...',
@@ -92,8 +93,7 @@ global.mess = {
   banned: 'You are *Banned* fron using commands!',
   bangc: 'This Group is *Banned* from using Commands!',
   nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!'
-
-}
+  
 
 global.limitawal = {
   premium: "Infinity",
